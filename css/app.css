@@ -6,3 +6,10 @@
   @media screen and (max-width: 400px) {
     .profile-photo {
       width: 100%; } }
+
+@media screen and (max-width: 600px) {
+  .bl-content,
+  div.bl-panel-items > div > div {
+    padding: 0; } }
+p {
+  overflow-x: scroll; }

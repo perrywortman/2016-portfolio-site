@@ -201,7 +201,7 @@ div.bl-panel-items > div > div {
 }
 
 .bl-content article {
-	padding: 20px 40px 20px 0px;
+	padding: 20px 0px 20px 0px;
 }
 
 .bl-content article h3 {
@@ -225,7 +225,7 @@ div.bl-panel-items > div > div {
 
 .bl-content > ul li {
 	display: inline-block;
-	width: 20%;
+	width: 22.5%;
 	margin: 1%;
 }
 
@@ -446,6 +446,6 @@ section.bl-expand .bl-icon-close {
 	}
 
 	.bl-content > ul li {
-		width: 40%;
+		width: 47.5%;
 	}
 }
