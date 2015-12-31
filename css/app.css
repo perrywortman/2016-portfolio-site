@@ -1,0 +1,8 @@
+.profile-photo {
+  display: block;
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border-radius: 100%; }
+  @media screen and (max-width: 400px) {
+    .profile-photo {
+      width: 100%; } }
