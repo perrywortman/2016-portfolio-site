@@ -180,7 +180,7 @@ div.bl-panel-items > div > div {
 	left: 30px;
 	right: 30px;
 	bottom: 30px;
-	padding: 0 20px;
+	padding: 0px 0px;
 	overflow: hidden;
 	overflow-y: auto;
 }
