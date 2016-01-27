@@ -19,7 +19,7 @@
 			<div id="bl-main" class="bl-main">
 				<section>
 					<div class="bl-box">
-						<h2 class="bl-icon bl-icon-about">About</h2>
+						<h2 class="bl-icon bl-icon-about"><span class="header">About</span></h2>
 					</div>
 					<div class="bl-content">
 						<h2>Hi, I'm Perry.</h2>
@@ -34,18 +34,19 @@
 				</section>
 				<section id="bl-work-section">
 					<div class="bl-box">
-						<h2 class="bl-icon bl-icon-works">Code</h2>
+						<h2 class="bl-icon bl-icon-works"><span class="header">Code</span></h2>
 					</div>
 					<div class="bl-content">
 						<h2><code>var myCurrentSkills = {</h2><br>
 						<p>&emsp;everyday: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'SASS', 'npm', 'Gulp', 'Git', 'WordPress'],<br>
-						&emsp;sometimes: ['React', 'Node', 'Express', 'ES6', 'Jade', 'Webpack', 'Bootstrap', 'Foundation', 'Bourbon', 'Neat', 'bower',  'Python', 'pip', 'Django', 'Stylus', 'Drupal'],<br>
-						&emsp;samples: [</pre></code></p>
+						&emsp;sometimes: ['React', 'Express', 'ES6', 'Jade', 'Stylus', 'Webpack', 'Ruby on Rails', 'Django', 'Drupal', 'Bootstrap', 'Foundation', 'Bourbon', 'Neat'],<br>
+						&emsp;sideProjects: [</pre></code></p>
 						<ul id="bl-work-items">
-							<li data-panel="panel-1"><a href="#"><img src="images/catch-of-the-day.jpg" /></a></li>
-							<li data-panel="panel-2"><a href="#"><img src="images/karavika.jpg" /></a></li>
-							<li data-panel="panel-3"><a href="#"><img src="images/hungryHands.jpg" /></a></li>
-							<li data-panel="panel-4"><a href="#"><img src="images/scupe.jpg" /></a></li>
+							<li data-panel="panel-1"><a href="#"><img src="images/lennon.jpg" /></a></li>
+							<li data-panel="panel-2"><a href="#"><img src="images/catch-of-the-day.jpg" /></a></li>
+							<li data-panel="panel-3"><a href="#"><img src="images/karavika.jpg" /></a></li>
+							<li data-panel="panel-4"><a href="#"><img src="images/hungryHands.jpg" /></a></li>
+							<!-- <li data-panel="panel-5"><a href="#"><img src="images/scupe.jpg" /></a></li> -->
 						</ul>
 						<p><code>&emsp;]</p><br>
 						<h2>}</code></h2>
@@ -58,14 +59,14 @@
 				</section>
 				<section>
 					<div class="bl-box">
-						<h2 class="bl-icon bl-icon-blog">Music</h2>
+						<h2 class="bl-icon bl-icon-blog"><span class="header">Music</span></h2>
 					</div>
 					<div class="bl-content">
 						<h2>Music</h2>
 						<article>
 							<h3>Recent Projects</h3>
 							<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1778653370/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=false/transparent=true/" seamless><a href="http://arunramamurthytrio.bandcamp.com/album/jazz-carnatica">Jazz Carnatica by Arun Ramamurthy Trio</a></iframe>
-							<iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=3393502271/size=large/bgcol=ffffff/linkcol=63b2cc/tracklist=false/artwork=false/transparent=true/" seamless><a href="http://karavika.bandcamp.com/album/sunrise">Sunrise by Karavika</a></iframe>
+							<iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=3393502271/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=false/transparent=true/" seamless><a href="http://karavika.bandcamp.com/album/sunrise">Sunrise by Karavika</a></iframe>
 							<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=91291272/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=false/transparent=true/" seamless><a href="http://hungryhands.bandcamp.com/album/plumb-restless">Plumb Restless by Hungry Hands</a></iframe>
 							<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=513509410/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=false/transparent=true/" seamless><a href="http://ryanblotnick.bandcamp.com/album/everything-forgets">Everything Forgets by Ryan Blotnick</a></iframe>
 						</article>
@@ -78,7 +79,7 @@
 				</section>
 				<section>
 					<div class="bl-box">
-						<h2 class="bl-icon bl-icon-contact">Contact</h2>
+						<h2 class="bl-icon bl-icon-contact"><span class="header">Contact</span></h2>
 					</div>
 					<div class="bl-content">
 						<h3>General Information</h3>
@@ -99,13 +100,21 @@
 				<div class="bl-panel-items" id="bl-panel-work-items">
 					<div data-panel="panel-1">
 						<div>
+							<img src="images/lennon.jpg" />
+							<h3>Lennon.io</h3>
+							<p><a href="http://www.lennon.io" target="_blank">Lennon.io</a> is a simple link showcasing app that I made with Rails 4 and the devise gem. Users can sign up, submit a link, as well as comment and vote up or down on link submissions. Go ahead, submit a link. Vote. You know you want to.</p>
+							<p><a href="https://github.com/perrywortman/lennon" target="_blank">github.com</a></p>
+						</div>
+					</div>
+					<div data-panel="panel-2">
+						<div>
 							<img src="images/catch-of-the-day.jpg" />
 							<h3>Catch of the Day</h3>
 							<p>An example of a Seafood ordering/inventory application built with React and Firebase, this app leverages two-way data binding, oAuth, React animations, and HTML5 localStorage. Based on an excellent tutorial by Wes Bos.</p>
 							<p><a href="https://github.com/perrywortman/catch-of-the-day" target="_blank">github.com</a></p>
 						</div>
 					</div>
-					<div data-panel="panel-2">
+					<div data-panel="panel-3">
 						<div>
 							<img src="images/karavika.jpg" />
 							<h3>Karavika</h3>
@@ -113,21 +122,21 @@
 							<p><a href="http://karavikamusic.com" target="_blank">karavikamusic.com</a></p>
 						</div>
 					</div>
-					<div data-panel="panel-3">
+					<div data-panel="panel-4">
 						<div>
 							<img src="images/hungryHands.jpg" />
 							<h3>Hungry Hands</h3>
 							<p>A tip of the hat to classic 80's arcade games, <a href="http://hungryhands.com" target="_blank">hungryhands.com</a> is a simple site built for a band I play electric bass in. We needed a landing page to direct people to our music after one of our songs was placed in a PS4 game.</p>
 						</div>
 					</div>
-					<div data-panel="panel-4">
+					<!-- <div data-panel="panel-5">
 						<div>
 							<img src="images/scupe.jpg" />
 							<h3>Scupe</h3>
 							<p>SCUPE is a non-profit based in Chicago that desperately needed a new site but had a very short deadline they wanted me to meet. So I created a WordPress child theme, cloned all their content, moved their old site into an archive folder and deployed the new site with SSL encryption included(which they had been paying for but not using). A huge improvement from their old site!</p>
 							<p><a href="https://scupe.org" target="_blank">scupe.org</a></p>
 						</div>
-					</div>
+					</div> -->
 					<nav>
 						<span class="bl-next-work">&gt; Next Project</span>
 						<span class="bl-icon bl-icon-close"></span>
