@@ -35,7 +35,6 @@ a {
 	font-weight: 700;
 	letter-spacing: 2px;
 	padding: 0 5px;
-	/*text-transform: uppercase;*/
 	font-size: 80%;
 }
 
@@ -65,25 +64,25 @@ span.header {
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background: #F06060;
+	background: #1B4D55;
 }
 
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: #FA987D;
+	background: #2C7B88;
 }
 
 .bl-main > section:nth-child(3) {
 	top: 50%;
 	left: 0;
-	background: #72CCA7;
+	background: #61949C;
 }
 
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: #10A296;
+	background: #44C0D4;
 }
 
 .bl-box {
@@ -175,7 +174,7 @@ span.header {
 	content: "\f00d";
 }
 
-.bl-content, 
+.bl-content,
 div.bl-panel-items > div > div {
 	opacity: 0;
 	pointer-events: none;
@@ -225,7 +224,7 @@ div.bl-panel-items > div > div {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-} 
+}
 
 .bl-content > ul li {
 	display: inline-block;
@@ -286,7 +285,7 @@ div.bl-panel-items {
 }
 
 div.bl-panel-items > div {
-	background: #3ba5db;
+	background: #F06060;
 	z-index: 0;
 	opacity: 0;
 	-webkit-transform: translateY(0);
@@ -375,17 +374,17 @@ div.bl-panel-items > div.bl-hide-current-work {
 	z-index: 100;
 }
 
-.bl-main > section:first-child.bl-expand {
-	background: #EE4444;
+.bl-main > section:nth-child(1).bl-expand {
+	background: #1B4D55;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #F98262;
+	background: #2C7B88;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #4BBE8E;
+	background: #61949C;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #0D8278;
+	background: #44C0D4;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
